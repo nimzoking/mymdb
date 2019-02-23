@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+Logout - {{ block.super }}
+{% endblock %}
+
+{% block main %}
+<div id="content" class="colM">
+        
+    <h1>Logged out</h1>
+    
+
+<p>You have been logged out of MyMDB.  Please revisit and do not forgot to vote for your favourite movies.</p>
+
+<p><a href="/user/login/">Log in again</a></p>
+
+{% endblock %}

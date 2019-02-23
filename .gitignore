@@ -1,0 +1,14 @@
+mymdb/
+*.sql*
+*.pyc
+**/js
+*.sqlite3
+**/migrations
+**/settings.py
+**/*.svg
+**/*.jpg
+**/*.woff
+media_root/
+
+
+
